@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Advertisement</title>
+    <style>
+        /* Your existing styles remain unchanged */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shopping Advertisement</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Categories</a> |
+        <a href="#">About</a>
+    </nav>
+
+    <section>
+        <div class="filter">
+            <!-- Addressing Known Problem 1 and 2 -->
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search" placeholder="Search..." fdprocessedid="08etql">
+            <button onclick="search()" fdprocessedid="pk4pe">Search</button>
+        </div>
+
+        <div class="advertisement">
+            <img src="advertisement_image.jpg" alt="Advertisement Image">
+            <h2>Product Title</h2>
+            <p>Description of the product goes here.</p>
+            <button fdprocessedid="yzb2frj">Learn More</button>
+        </div>
+
+        <!-- Add more advertisements here -->
+
+    </section>
+
+    <footer>
+        &copy; 2023 Shopping Advertisement. All rights reserved.
+    </footer>
+
+    <script>
+        function search() {
+            // Implement search functionality here
+            alert("Search button clicked");
+        }
+    </script>
+</body>
+</html>
